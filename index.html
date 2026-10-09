@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tailkeep — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 24px 20px 64px;
+    line-height: 1.6; color: #201E1A; background: #F7F4EF;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; color: #23624F; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; color: #23624F; }
+  a { color: #23624F; }
+  .updated { color: #635F58; font-size: 0.9rem; margin-top: 0; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #EFECE7; background: #111614; }
+    h1, h2, a { color: #92CCB7; }
+    .updated { color: #CAC7C0; }
+  }
+  li { margin: 0.35rem 0; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>Tailkeep — Privacy Policy</h1>
+<p class="updated">Last updated: October 6, 2026</p>
+
+<p>Tailkeep ("the app") is a pet-health tracker that runs entirely on your
+device. Your privacy is simple to explain because the app does not have a
+server and does not have an account system.</p>
+
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> Tailkeep does not collect, transmit, or share any
+personal or pet data. Everything you enter — pets, photos, vaccination records,
+health events, medications, appointments, reminders, and your profile name —
+is stored only in the app's private storage on your own device.</p>
+<ul>
+  <li>No user accounts, no sign-in.</li>
+  <li>No analytics, no advertising, no tracking, no third-party SDKs that send data.</li>
+  <li>No network access. The app does not request the <code>INTERNET</code>
+      permission, so it cannot send your data anywhere.</li>
+  <li>Your data is never sold, and the app shows no ads.</li>
+</ul>
+
+<h2>Permissions we use (and why)</h2>
+<ul>
+  <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>): to show
+      local reminders for upcoming vaccines, appointments and medication doses.
+      Reminders are generated and scheduled on the device. The app asks for
+      this permission the first time you create something that needs a
+      reminder, or when you tap "Allow notifications" in Settings.</li>
+  <li><strong>Run after restart</strong> (<code>RECEIVE_BOOT_COMPLETED</code>):
+      to re-schedule your pending reminders after the phone reboots, so you
+      don't miss them.</li>
+  <li><strong>Biometrics</strong> (<code>USE_BIOMETRIC</code> /
+      <code>USE_FINGERPRINT</code>, added by the Android biometric library):
+      used only for the optional App Lock. Authentication is handled entirely
+      by the Android system — Tailkeep never sees or stores your biometric
+      data.</li>
+</ul>
+<p>These permissions are used only for on-device features. They are not used
+to collect or transmit information.</p>
+
+<h2>Device backups (Google)</h2>
+<p>If you use Android's standard device backup, the operating system may
+include Tailkeep's data (your pet records, photos and settings) in your
+device's Google backup, encrypted and managed by Android. This is a transfer
+you control through your device settings; the developer cannot access it. You
+can exclude Tailkeep by disabling device backup in your Android settings.</p>
+
+<h2>Your data and your control</h2>
+<ul>
+  <li><strong>Backup/export:</strong> You can export your data (including pet
+      photos) to a file you choose, and import it back. That file is created
+      and stored wherever you decide (e.g. your device or your own cloud
+      drive). Tailkeep never uploads it for you.</li>
+  <li><strong>Sharing:</strong> Features like the PDF vaccination card only
+      create a file when you ask for one, and only share it with the app you
+      pick in the share sheet.</li>
+  <li><strong>Retention &amp; deletion:</strong> Your data persists until you
+      delete it in the app, clear the app's storage, or uninstall the app —
+      uninstalling permanently deletes all data from your device. Removing a
+      pet hides it in the app (its records are kept locally so a restore can
+      bring them back).</li>
+</ul>
+
+<h2>Children</h2>
+<p>Tailkeep is a general-audience utility and is not directed at children. It
+does not knowingly collect data from anyone (it collects no data at all).</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated version will be posted at this URL with
+a new "Last updated" date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy:
+<a href="mailto:muratcanapps@gmail.com">muratcanapps@gmail.com</a></p>
+
+</body>
+</html>
